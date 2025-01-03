@@ -63,8 +63,8 @@ class Member {
 if (!isset($_SESSION['books'])) {
     // Create books and store them in session
     $_SESSION['books'] = [
-        'book1' => new Book("PHP for Beginners", 3),
-        'book2' => new Book("Advanced PHP OOP", 2),
+        'book1' => new Book("The Great Gatsby", 3),
+        'book2' => new Book("To Kill a Mockingbird", 2),
     ];
 }
 
